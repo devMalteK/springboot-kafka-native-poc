@@ -1,0 +1,4 @@
+sbkanap:
+  kafka-bootstrap-server: "http://localhost:9094"
+  consumer-group: ${k8s_pod_name:${HOSTNAME:UNKNOWN}}
+  topic-name: "myTopic"

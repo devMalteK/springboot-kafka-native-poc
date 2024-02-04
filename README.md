@@ -38,13 +38,3 @@ simple App that produces a random KafkaMessage every x seconds , consumes and pr
 - suggested code helps with code-syntax
 - while creating an object-mapping-method the suggested code called all the needed setters and
   getters as i intended to do it. that was nice, because thats always annoying to code :-P
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/deMalte/springboot-kafka-native-poc.git
-git push -u origin main
-
-git config --global user.name "deMalte"
-git config --global user.email "youremail@yourdomain.com"
